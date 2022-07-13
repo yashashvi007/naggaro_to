@@ -29,7 +29,7 @@ function clickButton(e) {
     inputtdl.value = ''
 }
 
-function okdel(e) {
+function del(e) {
     const item = e.target
 
     if ( item.classList[0] === 'check-button') {
@@ -44,4 +44,4 @@ function okdel(e) {
 }
 
 buttontdl.addEventListener('click', clickButton)
-listtdl.addEventListener('click', okdel)
+listtdl.addEventListener('click', del)
